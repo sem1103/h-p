@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Hungry People</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Gidugu&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <header>
+        <nav id="burger__menu">
+            <div id="icon">
+                <i class="fas fa-hamburger" id="open" onclick="openMenu()"></i>
+                <i class="fas fa-times-circle" id="close" onclick="closeMenu()" ></i>
+            </div>
+           <div>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="#about__us">about</a></li>
+                    <li><a href="#our__teams">team</a></li>
+                    <li><a href="#booking">booking</a></li>
+                    <li><a href="#menu">menu</a></li>
+                    <li><a href="#events">events</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <div class="intro__icons">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+           </div>
+        </nav>
+        <nav class="container">
+           <div>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="#about__us">about</a></li>
+                    <li><a href="#our__teams">team</a></li>
+                    <li><a href="#booking">booking</a></li>
+                </ul>
+                <div id="logo">
+                    <img id="img_logo" src="img/logo.png" alt="Logo"/>
+                </div>
+                <ul>
+                    <li><a href="#menu">menu</a></li>
+                    <li><a href="#">galerie</a></li>
+                    <li><a href="#events">events</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+           </div>
+        </nav>
+
+
+        <section class="intro container">
+            <div class="intro__workt">
+                <p>
+                    Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM                
+                </p>
+            </div>
+            <div class="intro__text">
+                <h3>
+                    RESTAURANT
+                </h3>
+                <h1>
+                    hungry people
+                </h1>
+                <hr class="line1"/>
+                <div class="intro__btn">
+                    <a href="">BOOK TABLE</a>
+                    <a href="">EXPLORE</a>
+                </div>
+            </div>
+            <div class="intro__icons">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+        <div class="arrow">
+            <a href="#about__us">
+                <i class="fas fa-angle-down"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section id="about__us" class="container">
+            <article>
+                <h2>about us</h2>
+                <hr class="line1"/>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+                <p>
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                </p>
+            </article>
+            <div class="about_img">
+                <img src="img/aboutimg.png" width="100%" alt=""/>
+                
+            </div>
+        </section>
+        <section id="our__teams">
+            <h4>our teams</h4>
+           <div class="container">
+               <div class="team__img">
+                   <img src="img/temsimg.png" width="100%" alt=""/>
+               </div>
+                <article>
+                    <h2>MASTER CHEF</h2>
+                    <hr class="line1"/>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+                    <p>
+                        Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                    </p>
+                </article>
+           </div>
+        </section>
+        <section id="booking" class="container">
+            <article>
+                <h2>book a table</h2>
+                <hr class="line1"/>
+                <form>
+                    <input type="text" name="" class="form__items" placeholder="Name"/>
+                    <input type="text" name="" class="form__items" placeholder="Email"/>
+                    <input type="text" name="" class="form__items" placeholder="Phone"/>
+                    <input type="text" name="" class="form__items" placeholder="Date (mm/dd)"/>
+                    <button>BOOK NOW</button>
+                </form>
+            </article>
+            <div class="book__img">
+                <img src="img/bookimg.png" width="100%" alt=""/>
+                
+            </div>
+        </section>
+        <p class="time container">Mon - Fri: <span class="bold">8PM - 10PM</span>, Sat - Sun: <span class="bold">8PM - 3AM</span>, Phone: <span class="bold">+40 729 131 637/+40 726 458 782</span></p>
+        <section id="special">
+            <h4> specialties</h4>
+           <div class="container">
+               <div class="special_img">
+                   <img src="img/special2.png" width="100%" alt=""/>
+               </div>
+            <article>
+                <h2>chocolate pancakes</h2>
+                <hr class="line1"/>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+                <p>
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                </p>
+            </article>
+           </div>
+        </section>
+        <section id="menu" class="container">
+            <h2>DELICIOUS MENU</h2>
+            <hr class="line1"/>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+            <nav>
+                <ul>
+                    <li onclick="switchList(0,this)" class="active">PASTA</li>
+                    <li onclick="switchList(1,this)" class="not__active">PIZZA</li>
+                    <li onclick="switchList(2,this)" class="not__active">SOUPE</li>
+                   
+                </ul>
+            </nav>
+            <div class="menu_list">
+                <div style="opacity: 1;" id="static" class="menu__items">
+                    <div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                        <div>
+                            <h5>PASTA QUATRO STAGIONI ... 35.68 USD</h5>
+                            <p>SD Integer ullamcorper neque eu purus euismod</p>
+                        </div>
+                    </div>
+              </div>
+              <div style="opacity: 0;" class="menu__items">
+                <div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>PIZZA QUATRO STAGIONI ... 58.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                </div>
+            </div>
+            <div style="opacity: 0; " class="menu__items ">
+                <div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div>
+                        <h5>SOUPE QUATRO STAGIONI ... 55.68 USD</h5>
+                        <p>SD Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="events">
+            <h4>PRIVATE EVENTS</h4>
+           <div class="container">
+               <div class="events__img">
+                   <img src="img/event2.png" width="100%" alt=""/>
+               </div>
+               <div class="events__img">
+                <img src="img/event3.png" width="100%" alt=""/>
+            </div>
+           </div>
+           <p>
+                For private events please call: <span>+40 729 131 637/+40 726 458 782</span> or use the contact form.
+            </p>
+        </section>
+        <div id="galerie" class="gallery">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <section id="contact" class="container">
+            <h2>DELICIOUS MENU</h2>
+            <hr class="line1"/>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis <br/> at velit maximus, molestie est a, tempor magna.</h3>
+            <form >
+                <input type="text" name="name" placeholder="Name"/>
+                <input type="email" name="name" placeholder="Email"/>
+                <input type="text" name="name" placeholder="Phone" />
+                <textarea name="message" placeholder="Message" rows="10" ></textarea>
+                <address>
+                    <div>
+                        <div><img src="img/icon1.png" alt=""/></div>
+                        <p>5th London Boulevard, U.K. </p>
+                    </div>
+                    <div>
+                        <div><img src="img/icon2.png" alt=""/></div>
+                        <p>    +40 729 131 637/+40 726 458 782  </p>
+                    </div>
+                    <div>
+                        <div><img src="img/icon3.png" alt=""/></div>
+                        <p>office@mindblister.com </p>
+                    </div>
+                </address>
+                <button>SEND MESSAGE</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h6>
+            © Copyright <span>Mindblister</span>  2021
+        </h6>
+    </footer>
+    <script src="burger_menu.js"></script>
+    <script>   
+       
+      
+        function switchList(ind, li){
+            let menuItems = document.getElementsByClassName('menu__items');
+            document.querySelector('[class="active"]').setAttribute('class','not__active');
+            li.setAttribute('class','active');
+            document.querySelector('.menu__items[style="opacity: 1;"]').setAttribute('style','opacity:0');
+            document.querySelector('#static').setAttribute('id', 'no_position');
+            menuItems[ind].style.opacity = 1;
+            menuItems[ind].setAttribute('id','static');
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/b58f18650f.js" crossorigin="anonymous"></script>
+</body>
+</html>
