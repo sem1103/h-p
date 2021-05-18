@@ -8,6 +8,7 @@ for(let item in li){
         closeMenu();
     };
 }
+ss
 function openMenu(){
     nav[0].setAttribute('style', 'background: #1a1302b6;z-index: 1;');
     open.setAttribute('style', 'transform:translateX(-100%); opacity:0;')
