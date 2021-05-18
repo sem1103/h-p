@@ -401,6 +401,7 @@ p{
 }
 .menu_list  div > div{
     margin: 0 0 20px 0;
+    flex-basis: 32%;
 }
 #events > div{
     justify-content: space-around;
